@@ -1,0 +1,32 @@
+require 'hoe'
+
+
+Hoe.spec 'abigen' do
+
+  self.version = '0.1.1'
+  self.summary = '"high-level" all-in-one umbrella quick starter gem for easy installation & usage application binary interface (abi) code or doc(umentation) gen(eration) for ethereum & co.'
+  self.description = summary
+
+  self.urls    = { home: 'https://github.com/rubycocos/blockchain' }
+
+  self.author  = 'Gerald Bauer'
+  self.email   = 'wwwmake@googlegroups.com'
+
+  # switch extension to .markdown for gihub formatting
+  self.readme_file  = 'README.md'
+  self.history_file = 'CHANGELOG.md'
+
+  self.extra_deps = [
+    ['abi2ruby'],
+    ['abi2sol'],
+    ['abidoc'],
+  ]
+
+  self.licenses = ['Public Domain']
+
+  self.spec_extras = {
+    required_ruby_version: '>= 2.3'
+  }
+
+end
+

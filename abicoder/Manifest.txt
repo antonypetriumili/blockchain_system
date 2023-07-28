@@ -1,0 +1,10 @@
+CHANGELOG.md
+Manifest.txt
+README.md
+Rakefile
+lib/abicoder.rb
+lib/abicoder/decoder.rb
+lib/abicoder/encoder.rb
+lib/abicoder/parser.rb
+lib/abicoder/types.rb
+lib/abicoder/version.rb
