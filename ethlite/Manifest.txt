@@ -1,0 +1,9 @@
+CHANGELOG.md
+Manifest.txt
+README.md
+Rakefile
+lib/ethlite.rb
+lib/ethlite/contract.rb
+lib/ethlite/utils.rb
+lib/ethlite/version.rb
+lib/jsonrpc/jsonrpc.rb
